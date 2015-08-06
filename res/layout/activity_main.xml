@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_texture"
+    tools:context=".MainActivity" >
+    
+    
+    <!-- tab按钮组 -->
+    <include 
+        android:id="@+id/field_tabitems"
+        layout="@layout/tab_items"/>
+    
+    
+    
+    
+    <!-- tab面板 -->
+    <include
+        layout="@layout/tab_pages"/>
+    
+    
+
+</RelativeLayout>

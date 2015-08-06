@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_below="@id/field_tabitems"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+        
+	<!-- 音频tab页 -->
+	<RelativeLayout 
+	    android:id="@+id/tabpanel_audio"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	    
+	    <include 
+	        android:id="@+id/field_interphone"
+	        layout="@layout/panel_audio_record"/>
+	    
+	    <ScrollView 
+	        android:id="@+id/scroll_audio"
+	        android:scrollbars="none"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentRight="true"
+			android:layout_above="@id/field_interphone"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+	           	
+	        <LinearLayout
+				android:id="@+id/list_audio"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingTop="20dp"
+				android:orientation="vertical"/>
+		</ScrollView>
+	    	    
+	</RelativeLayout>
+    <!-- 音频tab页 END-->
+        
+        
+    <!-- 共享tab页 -->
+	<ScrollView 
+		android:id="@+id/tabpanel_share"
+		android:scrollbars="none"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<LinearLayout 
+		    android:paddingTop="20dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">    
+		 
+			<!-- 添加的桌面 -->
+			<LinearLayout 
+			    android:layout_marginTop="15dp"
+				android:id="@+id/field_added_desktop"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"/>
+				
+			<!-- 添加的开机画面 -->
+			<LinearLayout 
+			    android:layout_marginTop="15dp"
+				android:id="@+id/field_added_start_photo"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"/>
+				
+			<!-- 添加的问候语 -->
+			<LinearLayout 
+			    android:layout_marginTop="15dp"
+				android:id="@+id/field_added_greek"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"/>
+		</LinearLayout>
+	</ScrollView>
+		<!-- 共享tab页 END-->
+</FrameLayout>

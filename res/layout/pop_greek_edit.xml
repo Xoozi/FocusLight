@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_pop_background"
+    android:orientation="vertical" >
+    
+    <!-- 标题栏 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+    	
+        
+    	<TextView 
+			android:id="@+id/text_title"
+			android:gravity="center"
+		   	android:layout_width="300dp"
+		    android:layout_height="wrap_content"
+		    android:text="@string/label_greek_text"
+		    style="@style/font_pop_title"/>
+        
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blue_bg"/>
+        
+        
+    </LinearLayout>
+ 
+    
+    <FrameLayout 
+        android:layout_width="300dp"
+    	android:layout_height="300dp">
+    	
+        <EditText 
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="50dp"
+			android:id="@+id/edit_greek"
+		   	android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:maxLength="140"
+	    	style="@style/font_greek_edit"/>
+        
+        
+        <LinearLayout 
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="2">
+	        
+            <Button
+                android:layout_weight="1"
+		        android:id="@+id/btn_edit_cancel"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/btn_cancel"
+		        style="@style/font_btn_pop"/>
+	        
+	        <Button
+	            android:layout_weight="1"
+		        android:id="@+id/btn_edit_ok"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/btn_ok"
+		        style="@style/font_btn_pop"/>
+            
+        </LinearLayout>
+        
+        
+    </FrameLayout>
+    
+  
+  
+
+</LinearLayout>

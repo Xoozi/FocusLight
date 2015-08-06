@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:baselineAligned="false"
+    android:background="@drawable/shape_tab_item_background"
+    android:weightSum="2">
+        
+    <!-- 共享按钮 -->
+    <FrameLayout 
+		android:layout_weight="1"
+        android:id="@+id/tab_button_share"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content">
+            
+		<LinearLayout 
+			android:id="@+id/field_focus_share"
+			android:layout_width="match_parent"
+	        android:layout_height="4dp"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="1dp"
+	        android:background="@color/blue_bg"
+	        android:layout_gravity="bottom"/>
+	     
+		<TextView 
+			android:gravity="center_horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			style="@style/font_tab_title"
+			android:text="@string/tab_share"/>
+			
+		<TextView
+			android:layout_gravity="right|top"
+			android:id="@+id/tab_button_badge_share"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			style="@style/font_tab_badge"/>
+		
+		<ImageView 
+		    android:visibility="gone"
+		    android:layout_gravity="right|top"
+           	android:id="@+id/tab_img_badge_audio"
+           	android:src="@drawable/img_hello"
+           	android:layout_width="20dp"
+           	android:layout_height="20dp"/>
+	           	
+		<LinearLayout 
+			android:layout_width="1dp"
+			android:layout_marginTop="2dp"
+			android:layout_marginBottom="2dp"
+	        android:layout_height="match_parent"
+			android:background="#11EEEEEE"
+			android:layout_gravity="right"/>
+	</FrameLayout>
+        
+        
+	<!-- 音频按钮 -->
+    <FrameLayout 
+		android:layout_weight="1"
+        android:id="@+id/tab_button_audio"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content">
+           	
+		<LinearLayout 
+			android:id="@+id/field_focus_audio"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginLeft="1dp"
+	        android:layout_marginRight="1dp"
+            android:background="@color/blue_bg"
+            android:layout_gravity="bottom"/>
+     
+		<TextView 
+			android:gravity="center_horizontal"
+           	android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/font_tab_title"
+            android:text="@string/tab_audio"/>
+		
+		<ImageView 
+		    android:visibility="gone"
+		    android:layout_gravity="right|top"
+           	android:id="@+id/tab_img_badge_audio"
+           	android:src="@drawable/img_hello"
+           	android:layout_width="20dp"
+           	android:layout_height="20dp"/>
+		
+        <TextView
+           	android:layout_gravity="right|top"
+           	android:id="@+id/tab_button_badge_audio"
+           	android:layout_width="wrap_content"
+           	android:layout_height="wrap_content"
+           	style="@style/font_tab_badge"/>
+       
+           	
+        <LinearLayout 
+            android:layout_width="1dp"
+            android:layout_marginTop="2dp"
+			android:layout_marginBottom="2dp"
+            android:layout_height="match_parent"
+            android:background="#11EEEEEE"
+            android:layout_gravity="left"/>
+	</FrameLayout>
+</LinearLayout>

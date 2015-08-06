@@ -1,0 +1,113 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="font_edit_base">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:layout_margin">1dp</item>
+ 		<item name="android:singleLine">true</item>
+ 		<item name="android:background">@drawable/shape_pop_input</item>
+    </style>
+    
+    
+    <style name="font_edit_start_page" parent="font_edit_base">
+        <item name="android:textSize">23.0sp</item>
+        <item name="android:background">@drawable/shape_start_page_input</item>
+    </style>
+    
+    
+    <style name="font_panel_title">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    
+    <style name="font_panel_text">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:padding">1dp</item>
+    </style>
+    
+    <style name="font_title_base">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:padding">2dip</item>
+    </style>
+    
+    
+    <style name="font_pop_title" parent="font_title_base">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textColor">@color/blue_bg</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="font_tab_title" parent="font_title_base">
+        <item name="android:textSize">19.0sp</item>
+    </style>
+    
+    <style name="font_tab_badge">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#FFFF0000</item>
+    </style>
+    
+    
+    <style name="font_list_base">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:padding">2dip</item>
+    </style>
+    
+ 	<style name="font_greek_edit" parent="font_list_base">
+ 	    <item name="android:textSize">23.0sp</item>
+ 	    <item name="android:textColor">#FF000000</item>
+ 	</style>
+    
+    <style name="font_pop_list" parent="font_list_base" />
+
+    <style name="font_menu_list" parent="font_list_base">
+        <item name="android:textSize">23.0sp</item>
+    </style>
+    
+    
+    
+    <style name="font_btn_base">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:background">@drawable/selector_pop_btn_field</item>
+    </style>
+    
+    <style name="font_btn_pop" parent="font_btn_base">
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20.0sp</item>
+    </style>
+    
+    
+    <style name="font_btn_start_page" parent="font_btn_base">
+        <item name="android:textSize">23.0sp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    
+    <style name="font_camera_label">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+    </style>
+
+</resources>

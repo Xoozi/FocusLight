@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_panel_background"
+    android:orientation="vertical">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+    	
+        <RelativeLayout 
+            
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            
+            <TextView 
+		        android:id="@+id/text_title"
+		        android:layout_gravity="left|center_vertical"
+		        android:gravity="left|center_vertical"
+		        android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_centerVertical="true"
+			    style="@style/font_panel_title"/>
+            
+            
+            
+        </RelativeLayout>
+        
+        
+        <LinearLayout 
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blue_bg"/>
+        
+        
+    </LinearLayout>
+    
+    
+    
+    
+    
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+    
+	    <ImageView 
+	        android:id="@+id/img_icon"
+	        android:layout_margin="5dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@android:drawable/ic_menu_gallery"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        />
+	    
+	    <TextView 
+	        android:id="@+id/text_label"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/img_icon"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_margin="5dp"
+	        style="@style/font_panel_text"/>
+	    
+    
+
+	</RelativeLayout>
+    
+</LinearLayout>

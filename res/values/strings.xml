@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">关爱心</string>
+    <string name="action_settings">设置</string>
+    <string name="action_clean_active">取消绑定</string>
+    <string name="action_view_photo">浏览照片</string>
+    <string name="hello_world">FocusLight!</string>
+    
+    <string name="btn_ok">确认</string>
+    <string name="btn_scan_guid">扫描设备码</string>
+    <string name="btn_active_guid">激活设备码</string>
+    
+    <string name="toast_fsexplorer_root_dir">已经是根目录了</string>
+    <string name="toast_guid_invalide">设备码无效</string>
+    <string name="toast_no_user">服务器端没有注册对应的设备</string>
+    <string name="toast_not_active">该设备没有激活</string>
+    <string name="toast_verify_failed">请求服务器验证失败</string>
+    <string name="toast_desktop_upload_suc">桌面图片上传完成</string>
+    <string name="toast_start_upload_suc">开机图片上传完成</string>
+    <string name="toast_greek_set_suc">问候文本设置完成</string>
+    <string name="toast_desktop_delete_suc">桌面图片删除完成</string>
+    <string name="toast_start_delete_suc">开机图片删除完成</string>
+    <string name="toast_greek_delete_suc">问候文本删除完成</string>
+    
+    
+    <string name="text_add_menu_title">添加对象</string>
+    
+    
+    
+    <string name="hint_guid">请输入或扫描或选择设备码</string>
+    
+    <string name="menu_add_start_photo">新建开机图片</string>
+    <string name="menu_add_desktop_photo">新建桌面图片</string>
+    <string name="menu_add_greek_text">开机问候文本</string>
+    
+    
+    <string name="label_start_photo">开机图片</string>
+    <string name="label_desktop_photo">桌面图片</string>
+    <string name="label_greek_text">问候文本</string>
+    <string name="label_audio_record">录制音频</string>
+    <string name="label_notification_title">你收到了新的语音</string>
+    <string name="label_notification_content">点击查看</string>
+    
+    
+    <string name="title_delete_desktop">是否删除桌面图片</string>
+    <string name="title_delete_start">是否删除开机图片</string>
+    <string name="title_delete_greek">是否删除问候文本</string>
+    
+    <string name="btn_set">设置</string>
+    <string name="btn_delete">删除</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_send">发送</string>
+    <string name="btn_audio_save">停止</string>
+    <string name="btn_audio_playback">回放</string>
+    <string name="btn_interphone_normal">按 住 开 始 录 音</string>
+    <string name="btn_interphone_pressed">松 开 发 送 录 音</string>
+    
+    
+    <string name="tab_share">图文</string>
+    <string name="tab_audio">语音</string>
+
+</resources>
